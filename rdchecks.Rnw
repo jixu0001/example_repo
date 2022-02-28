@@ -1,0 +1,12 @@
+% -*- mode: noweb; noweb-default-code-mode: R-mode; -*-
+\SweaveOpts{echo=FALSE,prefix.string=fig/populations}
+
+\section{Subject with wrong MMSE strata}
+\label{sec:studypatients}
+
+Below list shows subjects with MMSE range in STRATA field of RD listing different from the visit one MMSE score from MED_QS3 (DIAGNOSTIC VERIFICATION - PROTOCOL V3.0 AND ABOVE) listing
+
+
+<<label=Table X.X - Subject with wrong MMSE strata, echo=TRUE>>=
+rdmismatch
+@
